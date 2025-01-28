@@ -1,0 +1,76 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #65605f;
+}
+
+.bg-custom {
+  background-color: #ff8c94;
+}
+
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.accordion-item {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.bg-fm {
+    background-color: #ede6e6;
+    border-radius: 15px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #ff8c94;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #fc4c69;
+  border: none;
+}
+
+.card-img-wrapper-top-ventas {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-img-top-top-ventas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Asegura que la imagen no se recorte */
+}
+
+.card-img-wrapper {
+  width: 100%; /* ancho adaptable al contenedor */
+  height: 250px; /* altura fija */
+  overflow: hidden; /* oculta el exceso de la imagen */
+}
+
+.card-img-top {
+  width: 100%; /*ancho del contenedor */
+  height: 100%; /*alto del contenedor */
+  object-fit: cover;
+}
+
+
