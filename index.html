@@ -21,33 +21,22 @@
     />
   </head>
   <body>
-    <section class="bg-custom text-white text-center p-4">
-      <div class="container">
-        <!-- Logo - primera fila -->
-        <div class="row">
-          <div class="col-12">
-            <img
-              src="img/logo-sin-fondo.png"
-              alt="Logo Vitalis Runner"
-              class="img-fluid mx-auto"
-              style="max-width: 300px"
-            />
-          </div>
-        </div>
-        <!-- Segunda fila -->
-        <div class="row">
-          <div class="col-12">
-            <h1 class="fw-bold">¡Bienvenidos a Vitalis Runner!</h1>
-          </div>
-        </div>
-        <!-- Tecera fila -->
-        <div class="row">
-          <div class="col-12">
-            <p class="lead">Descubre lo mejor en zapatillas</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <header class="container-fluid text-center py-5 bg-custom">
+      <img
+        src="img/logo-sin-fondo.png"
+        alt="Logo"
+        class="img-fluid mb-4"
+        width="300"
+      />
+      <h1 class="display-5 fw-bold">Tu próxima carrera empieza aquí</h1>
+      <p class="lead py-3">
+        <i
+          >Las mejores zapatillas para entrenamiento, competición, trail running
+          y vida diaria.</i
+        >
+      </p>
+      <button class="btn btn-primary btn-lg">Encuentra las tuyas</button>
+    </header>
 
     <!-- Carrusel -->
     <div
@@ -121,6 +110,31 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Siguiente</span>
       </button>
+    </div>
+
+    <!-- Barra de progeso -->
+    <div class="col-8 container text-center my-5">
+      <h4 class="fw-bold">+1000 corredores confían en nosotros</h4>
+      <div class="progress" style="height: 25px">
+        <div
+          class="progress-bar bg-primary"
+          role="progressbar"
+          style="width: 100%"
+        >
+          +1000
+        </div>
+      </div>
+
+      <h4 class="fw-bold mt-4">+500 modelos disponibles</h4>
+      <div class="progress" style="height: 25px">
+        <div
+          class="progress-bar bg-success"
+          role="progressbar"
+          style="width: 100%"
+        >
+          500+
+        </div>
+      </div>
     </div>
 
     <!-- Acordeón -->
@@ -387,7 +401,7 @@
         <div class="col-md-6">
           <label for="inputProvincia" class="form-label">Provincia</label>
           <select id="inputProvincia" class="form-select">
-            <option selected>Seleccionar...</option>
+            <option selected>Selecciona la provincia</option>
             <option>A Coruña</option>
             <option>Álava</option>
             <option>Albacete</option>
@@ -440,7 +454,7 @@
         <div class="col-md-6">
           <label for="actividad" class="form-label">Tipo de Actividad</label>
           <select id="actividad" class="form-select">
-            <option selected>Seleccionar...</option>
+            <option selected>Selecciona el tipo de actividad</option>
             <option>Correr</option>
             <option>Trail</option>
             <option>Fitness</option>
@@ -464,28 +478,54 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-custom py-4">
+    <footer class="bg-custom py-5">
       <div class="container">
-        <div class="row justify-content-center text-center">
-          <!-- Logo 1 -->
-          <div class="col-4 col-sm-2 mb-3">
-            <i class="bi bi-facebook"></i>
+        <div class="row text-center">
+          <!-- Redes Sociales -->
+          <div class="col-12 mb-4">
+            <h4>Síguenos en redes sociales</h4>
           </div>
-          <!-- Logo 2 -->
-          <div class="col-4 col-sm-2 mb-3">
-            <i class="bi bi-whatsapp"></i>
+          <div class="col">
+            <button type="submit" class="btn btn-link text-reset"><i class="bi bi-facebook fs-2"></i></button>
           </div>
-          <!-- Logo 3 -->
-          <div class="col-4 col-sm-2 mb-3">
-            <i class="bi bi-instagram"></i>
+          <div class="col">
+            <button type="submit" class="btn btn-link text-reset"><i class="bi bi-whatsapp fs-2"></i></button>
           </div>
-          <!-- Logo 4 -->
-          <div class="col-4 col-sm-2 mb-3">
-            <i class="bi bi-linkedin"></i>
+          <div class="col">
+            <button type="submit" class="btn btn-link text-reset"><i class="bi bi-instagram fs-2"></i></button>
           </div>
-          <!-- Logo 5 -->
-          <div class="col-4 col-sm-2 mb-3">
-            <i class="bi bi-browser-chrome"></i>
+          <div class="col">
+            <button type="submit" class="btn btn-link text-reset"><i class="bi bi-linkedin fs-2"></i></button>
+          </div>
+        </div>
+
+        <hr class="my-4 bg-light" />
+
+        <div class="row text-center">
+          <!-- Envíos y Devoluciones -->
+          <div class="col-md-6 mb-4">
+            <h5>📦 Envíos y Devoluciones</h5>
+            <p>
+              Envío gratuito en pedidos superiores a 50€. Devoluciones fáciles
+              en 30 días.
+            </p>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-md-6">
+            <h5>📰 Suscríbete a nuestro Newsletter</h5>
+            <p>Recibe ofertas exclusivas y novedades antes que nadie.</p>
+            <form class="d-flex justify-content-center">
+              <input
+                type="email"
+                class="form-control w-50"
+                placeholder="Tu correo"
+                required
+              />
+              <button type="submit" class="btn btn-primary ms-2">
+                Suscribirse
+              </button>
+            </form>
           </div>
         </div>
       </div>

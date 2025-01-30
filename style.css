@@ -7,7 +7,7 @@ body {
 }
 
 .bg-custom {
-  background-color: #ff8c94;
+  background-color: #fadbd8;
 }
 
 .carousel img {
@@ -31,8 +31,8 @@ body {
 }
 
 .bg-fm {
-    background-color: #ede6e6;
-    border-radius: 15px;
+  background-color: #ede6e6;
+  border-radius: 15px;
 }
 
 .form-control,
@@ -72,5 +72,3 @@ body {
   height: 100%; /*alto del contenedor */
   object-fit: cover;
 }
-
-
