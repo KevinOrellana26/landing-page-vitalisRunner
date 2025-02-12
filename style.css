@@ -72,3 +72,11 @@ body {
   height: 100%; /*alto del contenedor */
   object-fit: cover;
 }
+
+.list-corredores {
+  background-color: #ff8c94;
+}
+
+.list-modelos {
+  background-color: #fc4c69;
+}
